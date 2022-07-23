@@ -1,0 +1,130 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;900&family=Roboto:wght@900&family=Ubuntu:wght@300;400;700&display=swap");
+
+body {
+  background-color: #fff;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #fff;
+}
+
+.nav {
+  padding-left: 10%;
+}
+
+.navbar-brand {
+  color: #87ceeb;
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.container-fluid {
+  padding: 7% 10%;
+}
+
+.heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.heading-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.col-image {
+  text-align: center;
+}
+
+hr {
+  width: 5%;
+  margin: 100px auto 50px;
+  border: dotted #8f8f8f 6px;
+  border-bottom: none;
+}
+
+/* Skills Section */
+
+#about-us {
+  padding: 7% 10%;
+  text-align: center;
+}
+
+.skills-heading {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
+}
+
+.skill-img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+p {
+  color: #8f8f8f;
+  width: 90%;
+  font-family: "Montserrat";
+  line-height: 1.5;
+  margin: 2rem 0;
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .heading {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+
+  .container-fluid {
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  hr {
+    width: 15%;
+    margin: 80px auto 22px;
+  }
+
+  .skills-heading {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  p {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container-fluid {
+    padding-bottom: 0;
+  }
+
+  .heading {
+    margin-bottom: 30px;
+  }
+
+  hr {
+    width: 7%;
+    margin: 100px auto 15px;
+  }
+
+  p {
+    width: 100%;
+  }
+}
